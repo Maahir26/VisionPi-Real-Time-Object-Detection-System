@@ -1,0 +1,18 @@
+g++ detect_img.cpp -o detect_img.out -I/usr/local/include/opencv4 $(pkg-config --libs opencv4) -std=c++11
+
+
+to close the pictures when opened from the cpp file, you have to do command c in terminal if i ran it there, or the esc button
+
+OK LISTEN, TO USE BACKEND AND FRONTEND FOLDERS YOU GOT TO CD INTO THEM
+THEN YOU GOT TO TYPE NPM INSTALL TO INSTALL AND UPDATE ALL THE REQUIRED PACKAGES TO RUN IT
+
+TO USE BACKEND FOLDER AND FRONTEND FOLDER. YOU NEED 2 TERMINALS
+1 TERMINAL CD BACKEND, THE OTHER CD FRONTEND
+FOR BACKEND, TYPE NPX NODEMON SERVER.JS TO RUN IT
+FOR FRONTEND TYPE NPM RUN START
+
+
+ok so for the frontend/backend stuff, theres 3 buttons, 1. start camera 2. take picture 3. fetch picture
+to condense it so its 2buttons, start camera and take picture. i can combine  fetch picture and take picture functions. to do so it would be 
+all the functions to take picture first, then it would run the fetch(http stuff and /picture api call) stuff
+and ya thats how you would do thats
