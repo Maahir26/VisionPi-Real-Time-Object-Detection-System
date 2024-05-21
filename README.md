@@ -1,4 +1,4 @@
-# CS3307 Group Assignment
+
 
 This project aims to create an interactive and user-friendly Raspberry Pi system equipped with a physical button, LED lights, and a camera. The core functionality of the system is straightforward: upon pressing the  button, an LED will light up indicating that a picture has been taken, and the camera will capture a snapshot of its current view. The innovative aspect lies in the post-capture processing,  where the system utilizes OpenCV, a prominent open-source computer vision library, to analyze the captured image and identify the objects in the image.
 
